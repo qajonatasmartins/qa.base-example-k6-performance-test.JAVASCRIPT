@@ -4,7 +4,14 @@
   "description": "Projeto de estudos K6",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-01": "k6 run ./k6-scripts/basics/test-01.js",
+    "test-02": "k6 run ./k6-scripts/basics/test-02.js",
+    "test-03": "k6 run ./k6-scripts/basics/test-03.js",
+    "test-04": "k6 run ./k6-scripts/basics/test-04.js",
+    "test-check-01": "k6 run ./k6-scripts/basics/check/test-check-01.js",
+    "test-thresholds-01": "k6 run ./k6-scripts/basics/thresholds/test-thresholds-01.js",
+    "test-login-01": "k6 run ./k6-scripts/login/test-login-01.js",
+    "test-0X": "k6 run "
   },
   "repository": {
     "type": "git",
